@@ -1,0 +1,420 @@
+@media screen and (max-device-width: 1024px){
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #374857;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    .pic-man{
+        top: 174px;
+        margin-left: -40px;
+    }
+
+    .pic-man img{
+        width: 90%;
+    }
+
+    .pic-about{
+        display: none;
+    }
+
+    .about{
+        padding: 240px 0 100px 0;
+    }
+
+    .about-priv{
+        display: flex;
+        gap: 50px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .text-about{
+        text-align: center;
+    }
+
+    .descr-about h2{
+        text-align: center;
+    }
+
+    .general-appliance{
+        justify-content: center;
+    }
+
+    .general-why-us{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .description-why-us{
+        width: 100%;
+        text-align: center;
+    }
+
+    .list-priv{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .brands-logo{
+        justify-content: center;
+    }
+
+    .appliance-block{
+        width: 45%;
+    }
+
+    .general-appliance-repair{
+        justify-content: center;
+    }
+
+    .pic-warrantees img{
+        width: 100%;
+        height: 580px;
+    }
+
+    .review:nth-child(3){
+        display: none;
+    }
+
+    .general-testimonials{
+        justify-content: center;
+    }
+
+    .review{
+        width: 50%;
+    }
+
+    .priv-paragr{
+        width: 32%;
+    }
+
+    .general-blog{
+        justify-content: center;
+    }
+
+    .tips:nth-child(3){
+        display: none;
+    }
+
+    .info-footer-links{
+        display: none;
+    }
+
+    .contact-form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    input{
+     width: 100%;
+    }
+
+}
+
+@media screen and (max-device-width: 768px){
+    .pic-man img{
+        width: 100%;
+    }
+
+    .pic-man{
+        top: 484px !important;
+        margin-left: -261px !important;
+    }
+
+    .block-slogan{
+        padding: 122px 0 541px 0 !important;
+    }
+
+    .about{
+        padding: 207px 0 100px 0;
+    }
+
+    .block-reliable{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .general-reliable{
+        width: 100%;
+    }
+
+    .tips{
+        width: 350px !important;
+    }
+
+    .blog-descr{
+        width: 320px !important;
+    }
+
+    .priv-paragr{
+        width: 45%;
+    }
+
+    .description-guarantee{
+        padding: 60px;
+        height: auto;
+    }
+
+    
+}
+
+@media screen and (max-device-width: 820px){
+
+    .pic-man img{
+        width: 100%;
+    }
+
+    .pic-man{
+        top: 484px !important;
+        margin-left: -261px !important;
+    }
+
+    .block-slogan{
+        padding: 90px 0 597px 0!important;
+    }
+
+    .block-reliable{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .general-reliable{
+        width: 100%;
+    }
+
+    .tips{
+        width: 350px;
+    }
+
+    .blog-descr{
+        width: 320px;
+    }
+
+    .priv-paragr{
+        width: 45%;
+    }
+
+    .description-guarantee{
+        padding: 60px;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-device-width: 370px) and (max-device-width: 428px){
+    h1{
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .pic-man img{
+        width: 95%;
+    }
+
+    .pic-man{
+        top: 705px !important;
+        margin-left: -363px !important;
+    }
+
+    .block-slogan{
+        padding: 90px 0 547px 0!important;
+    }
+
+    .about{
+        padding: 156px 0 100px 0;
+    }
+
+    .about h2{
+        margin-bottom: 40px;
+    }
+
+    .about-priv{
+        gap: 30;
+    }
+
+    .block-btn{
+        flex-direction: column;
+
+    }
+
+    .btn-book,.btn-call,.btn-slider,.btn-view,.bth-send,.appliance-block,.review{
+        width: 100%;
+    }
+
+    .general-guarantees{
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
+    .description-guarantee{
+        padding: 40px;
+    }
+
+    .description-guarantee span{
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .pic-warrantees img{
+        height: 403px;
+    }
+
+    .about-priv{
+        flex-wrap: wrap;
+    }
+
+    .priv span:nth-child(2){
+        font-size: 15px;
+    }
+
+    .appliance p{
+        padding: 0;
+    }
+
+    .list-priv{
+        gap: 25px 35px;
+    }
+
+    h2{
+        margin-bottom: 28px;
+    }
+
+    .general-why-us{
+        gap: 40px;
+    }
+
+    .description-why-us a{
+        line-height: 30px;
+    }
+
+    .text-action{
+        text-align: center;
+    }
+
+    .text-banner{
+        padding: 30px;
+    }
+
+    .tittle p{
+        padding: 0;
+        margin-top: 28px;
+    }
+
+    .general-reliable{
+        padding: 40px;
+    }
+
+    .general-reliable ul li:nth-child(4){
+        display: none;
+    }
+
+    .general-testimonials{
+        gap: 40px;
+    }
+
+    .testimonials,.Blog,.appliance-repair{
+        padding: 70px 0;
+    }
+
+    .brands{
+        padding: 70px 0 80px 0;
+    }
+
+    .why-us{
+        padding: 60px 0 80px 0;
+    }
+
+    .appliance{
+        padding: 63px 0 80px 0;
+    }
+
+    .appliance h2{
+        margin-bottom: 28px;
+    }
+
+    .about{
+        padding: 144px 0 80px 0;
+    }
+
+    .description-block-slogan{
+        text-align: center;
+        padding: 40px;
+    }
+
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px 40px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+    }
+
+    .btns-stick {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+}
