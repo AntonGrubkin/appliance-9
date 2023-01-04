@@ -205,6 +205,10 @@ h1{
     margin-bottom: 30px;
 }
 
+.btns-stick{
+    display: none;
+}
+
 h2{
     color: #374857;
     font-size: 39px;
